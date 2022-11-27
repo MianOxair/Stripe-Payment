@@ -1,0 +1,21 @@
+
+Stripe Payment gateway 
+we will be using the stripe charges api to setup online payments in node.js and express in browser using javascript.
+In order to get started you need to make a new node.js project by using the below command as shown below;
+npm init -y
+npm i express
+npm i ejs
+npm i stripe
+
+After that now we need to make a index.js file and copy paste the following code
+index.js
+Now we are importing the required libraries which are express, stripe, EJS and dotenv and body-parser and nodemon.
+Npm I express stripe ejs dotenv body-parser nodemon
+
+And after that we are setting the stripe publishable key and secret key. These two things are required for this application. After you create your account, you need to go to test mode in stripe and get these details here as shown below
+
+After getting this information simply replace the keys in the code. As you can see in the code from application, we are rendering an ejs template when we open the index page. Now we need to make the views folder inside the root directory and inside it make the home.ejs file and copy paste the below code
+Now when we hit this pay with card button then automatically this will open the popup window where the user can pay with visa or master card automatically.
+
+Start the application by wrtting npm start commend on terminal so after that you see the localhost:3000 for the result. 
+
